@@ -1,0 +1,22 @@
+{
+  "name": "livredemonode",
+  "version": "1.0.0",
+  "description": "demo pour un projet node js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=production && nodemon server.js"
+    },
+  "author": "BD",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2",
+    "semantic-ui-css": "^2.4.1"
+  }
+}

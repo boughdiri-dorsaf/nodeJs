@@ -1,0 +1,18 @@
+<%- include('../page/header'); -%>
+
+<div class="ui comments">
+        <div class="comment">
+            <a class="avatar" href="/message/<%= message.id %>">
+                <img src="https://w0.pngwave.com/png/129/94/computer-icons-avatar-icon-design-male-teacher-png-clip-art.png" alt="">
+            </a>
+            <div class="content">
+                <div class="metadata">
+                    <div class="date">
+                        <%= message.created_at.fromNow() %>
+                    </div>
+                </div>
+                <div class="test"><%= message.content %></div>
+            </div>
+        </div>
+</div>
+<%- include('../page/footer'); -%>
